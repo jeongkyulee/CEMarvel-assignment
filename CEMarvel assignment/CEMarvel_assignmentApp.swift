@@ -21,14 +21,14 @@ struct CEMarvel01App: App {
                 }
                 .padding(.top, 1)
                 .tabItem {
-                    Image(systemName: "paperplane")
+                    Image(systemName: "text.bubble")
                     Text("Engineering Marvels")
                 }
                 NavigationView {
                     MapView()
                 }
                 .tabItem {
-                    Image(systemName: "camera")
+                    Image(systemName: "globe")
                     Text("Global Map")
                 }
             }

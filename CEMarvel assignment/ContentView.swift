@@ -14,14 +14,15 @@ struct ContentView: View {
                 .resizable()
                 .scaledToFit()
             Text(structure.name)
-                .font(.largeTitle)
+                .font(.title)
                 .bold()
                 .multilineTextAlignment(.center)
                 .padding(.bottom, 1)
             
             Text(structure.country)
                 .font(.title)
-                .foregroundColor(.secondary)
+                .fontWeight(.bold)
+                .foregroundColor(.blue)
                 .padding(.bottom, 5)
             
             Text(structure.description)
